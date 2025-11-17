@@ -1,0 +1,102 @@
+body {
+    font-family: Isoveka, monospace;
+    color: greenyellow;
+    background-color: #333;
+    margin: 0;
+}
+
+header {
+    background: #222;
+    color: greenyellow;
+    padding: 1rem;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid greenyellow;
+}
+
+nav a {
+    color: greenyellow;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    border-bottom: 1px solid greenyellow;
+}
+
+footer {
+    background: #222;
+    color: greenyellow;
+    text-align: center;
+    padding: 1rem;
+}
+
+@keyframes blink {
+    0%   { opacity: 1; }
+    50%  { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 2px;
+    position: relative;
+    background-color: greenyellow;
+    animation: blink 500ms infinite;
+}
+
+.txticon {
+    width: 25px;            /* size of icon */
+    height: 25px;
+    vertical-align: middle;  /* aligns with text */
+    margin-right: 5px;       /* space between icon and text */
+}
+
+.foldericon {
+    width: 25px;            /* size of icon */
+    height: 25px;
+    position: relative;
+    bottom: -10px;
+    margin-right: 5px;       /* space between icon and text */
+}
+
+/* Links inside the header/nav */
+header a:link,
+header a:visited {
+    background-color: #222;
+    color: greenyellow;
+    padding: 2px 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header a:hover,
+header a:active {
+    background-color: #111;
+}
+
+/* Links inside main content */
+main a:link,
+main a:visited {
+    background-color: #333;
+    color: seagreen;
+    padding: 1px 3px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+main a:hover,
+main a:active {
+    background-color: #222;
+}
+
+
+.hig {
+    width: 25px;            /* size of icon */
+    height: 25px;
+    position: relative;
+    bottom: -7px;
+}
